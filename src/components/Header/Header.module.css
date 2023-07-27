@@ -1,0 +1,172 @@
+.box{
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.box .wrapper{
+    border: 0px none;
+    height: 6.25rem;
+    width: 120rem;
+    position: relative;
+}
+.box .header{
+    background-color: #FFFFFF;
+    height: 6.25rem;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 120rem;
+}
+.box .logo{
+    height: 3.25rem;
+    left:5rem ;
+    width: 14.8125rem;
+    object-fit: cover;
+    position: absolute;
+    top: 1.5rem;
+}
+.box .navbar{
+    height:1.25rem;
+    left:24.69rem;
+    position: absolute;
+    top:2.56rem;
+    width:38.56rem;
+}
+.box .home{
+    color: #693CDE;
+    font-family: 'Poppins';
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    left: 0;
+    line-height: normal;
+    letter-spacing: 0.08125rem;
+    position: absolute;
+    top: 0;
+}
+.box .aboutUs{
+    color: #1F1733;
+    font-family: 'Poppins';
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    left: 5.12rem;
+    line-height: normal;
+    letter-spacing: 0.08125rem;
+    position: absolute;
+    top: 0;
+}
+.box .courses{
+    width: 5.625rem;
+    height: 1.25rem;
+    left: 12.2rem;
+    position: absolute;
+    top: 0;
+}
+.box .text{
+    color: #1F1733;
+    font-family: 'Poppins';
+    font-size: 0.8125rem;
+    font-style: normal;
+    left:0;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.08125rem;
+    top: 0;
+}
+.box .vector{
+    width: 0.5rem;
+    height: 0.25rem;
+    top: 0.3rem;
+    position: absolute;
+    left: 5.13rem;
+}
+.box .events{
+    width: 4.875rem;
+    height: 1.25rem;
+    position: absolute;
+    top: 0;
+    left:20.3rem;
+}
+.box .contactUs{
+    color: #1F1733;
+    font-family: 'Poppins';
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.08125rem;
+    position: absolute;
+    left: 27.68rem;
+    top: 0;
+}
+.box .blog{
+    color: #1F1733;
+    font-family: 'Poppins';
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.08125rem;
+    text-transform: uppercase;
+    position:absolute;
+    top: 0;
+    left: 36.12rem;
+}
+.box .phoneNumber{
+    top: 1.69rem;
+    width: 12.24994rem;
+    height: 2.875rem;
+    left: 70rem;
+    position: absolute;
+}
+.box .icon{
+    width: 2.875rem;
+    height: 2.875rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box .text2{
+    color: #1F1733;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.06rem;
+    left:3.625rem;
+    position: absolute;
+    top:0.68rem;
+}
+.box .bookFreeClass{
+    width: 10rem;
+    height: 2.875rem;
+    left: 83rem;
+    right: 6.88rem;
+    position: absolute;
+    top: 1.68rem;
+}
+.box .group{
+    background-color: #693CDE;
+    border-radius:0.5rem;
+    position: relative;
+    height:2.875rem ;
+    width:10rem;
+}
+.box .div{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 0.875rem;
+    top: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0525rem;
+    left:1.19rem;
+    position: absolute;
+}

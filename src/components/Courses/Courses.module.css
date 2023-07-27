@@ -1,0 +1,253 @@
+.box{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.box .courses{
+    background-color: #FFFFFF;
+    width: 120rem;
+    height: 62.5625rem;
+    left: 0;
+    top:0;
+    position:fixed;
+}
+.box .textBox{
+    height:5.625rem;
+    width:27.125rem;
+    left: 35.31rem;
+    top: 5rem;
+    position: absolute;
+    text-align:center;
+}
+.box .text{
+    color:#1F1733;
+    text-align: center;
+    font-family: "Poppins-Medium",Helvetica;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.0675rem;
+}
+.box .textWrapper{
+    color: #693CDE;
+    font-family: "Poppins-Extrabold",Helvetica;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.0775rem;
+    text-transform: uppercase;
+}
+.box .digitalMarketing{
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    border: 1px solid #EDEBF3;
+    box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
+    width: 23.625rem;
+    height: 29rem;
+    position: absolute;
+    left: 11.31rem;
+    top: 15.25rem;
+}
+.box .diImg{
+    width: 23.625rem;
+    left:0;
+    top: 0;
+    height: 19.562rem;
+    position:relative;
+}
+.box .discount{
+    background-color: #FFA825;
+    border-radius: 0.5rem;
+    width: 5.375rem;
+    height: 2.1875rem;
+    left: 17rem;
+    top: 16.38rem;
+    position: absolute;
+}
+.box .text2{
+    color:#FFFFFF;
+    font-family: "Poppins-italic",Helvetica;
+    font-size: 0.8125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0325rem;
+    text-decoration:line-through;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+}
+.box .text3{
+    color: #FFFFFF;
+    text-align: right;
+    font-family: "Poppins-semiBold",Helvetica;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+    left: 2.25rem;
+    top: 0.25rem;
+    position: absolute;
+}
+.box .onlineProject{
+    background: #FFFFFF;
+    border: 1px solid #EDEBF3;
+    border-radius: 0.5rem;
+    width: 23.625rem;
+    height: 29rem;
+    left: 37.19rem;
+    top: 15.25rem;
+    position: absolute;
+}
+.box .text4{
+    color:#FFFFFF;
+    font-family: "Poppins-italic",Helvetica;
+    font-size: 0.8125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0325rem;
+    text-decoration:line-through;
+    left: 0.63rem;
+    top: 0.5rem;
+    position: absolute;
+}
+.box .text5{
+    color:#FFFFFF;
+    text-align: right;
+    font-family: "Poppins-semiBold",Helvetica;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+    left: 2.13rem;
+    top: 0.25rem;
+    position: absolute;
+}
+.box .guid{
+    background-color: #FFFFFF;
+    border: 1px solid #EDEBF3;
+    border-radius: 0.5rem;
+    width: 23.625rem;
+    height: 29rem;
+    position: absolute;
+    left: 63.06rem;
+    top: 15.25rem;
+}
+.box .text6{
+    color:#1F1733;
+    text-align: center;
+    font-family: "Poppins-bold",Helvetica;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+    left: 2.31rem;
+    top: 20.37rem;
+    position: absolute;
+}
+.box .text7{
+    color:#696477;
+    text-align: center;
+    font-family: "Poppins-light",Helvetica;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.035rem;
+    left: 7.56rem;
+    top: 22.31rem;
+    position: absolute;
+}
+.box .btn{
+    background-color: #693CDE;
+    border: 1px solid #693CDE;
+    border-radius: 0.5rem;
+    width: 13.125rem;
+    height: 3.1875rem;
+    left: 5.25rem;
+    top: 24.56rem;
+    position: absolute;
+    font-size: 0.875rem;
+    font-family: "Poppins-semiBold",Helvetica;
+    color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: 0.035rem;
+}
+.box .text8{
+    color: #1F1733;
+    text-align: center;
+    font-family: "Poppins-bold",Helvetica;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+    left: 3.31rem;
+    top: 20.37rem;
+    position: absolute;
+}
+.box .text9{
+    color: #696477;
+    text-align: center;
+    font-family: "Poppins-light",Helvetica;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.035rem;
+    left: 5.25rem;
+    top: 22.31rem;
+    position: absolute;
+}
+.box .btn2{
+    background-color: #FFFFFF;
+    border:1px solid #693CDE;
+    border-radius: 0.5rem;
+    width: 13.125rem;
+    height: 3.1875rem;
+    left: 6.25rem;
+    top: 24.56rem;
+    position: absolute;
+    color: #693CDE;
+    font-weight: 600;
+    font-family:"Poppins-bold",Helvetica;
+    letter-spacing:0.035rem ;
+}
+.box .text10{
+    color: #1F1733;
+    text-align: center;
+    font-family: "Poppins-bold",Helvetica;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+    position: absolute;
+    left: 2.12rem;
+    top:20.37rem;
+}
+.box .text11{
+    color: #696477;
+    text-align: center;
+    font-family: "Poppins-light",Helvetica;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.035rem;
+    left: 1.94rem;
+    top: 22.31rem;
+    position: absolute;
+}
+
+
+
