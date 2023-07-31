@@ -1,0 +1,186 @@
+.box{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.box .journey{
+    position: relative;
+    width: 120rem;
+    height: 81.25rem;
+}
+.box .title{
+    color: #693CDE;
+    text-align: center;
+    font-family: "Poppins-bold",Helvetica;
+    font-size: 1.8125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.0725rem;
+    text-transform: uppercase;
+    left: 30.94rem;
+    top: 5rem;
+    position: absolute;
+}
+.box .h1{
+    color:#696477;
+    width: 43.125rem;
+    text-align: center;
+    font-family: "Poppins-light",Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+    left: 27.44rem;
+    position: absolute;
+    top: 9.25rem;
+}
+.box .rectangle1{
+    border-radius: 0.5rem;
+    border: 1px solid #EDEBF3;
+    background:#FFFFFF;
+    box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
+    width: 23.625rem;
+    height: 25.6875rem;
+    position: absolute;
+    left: 10.31rem;
+    top: 16.25rem;
+}
+.box .text{
+    width: 22.625rem;
+    color:#1F1733;
+    text-align: center;
+    font-family: "Poppins-bold";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 2.25rem;
+}
+.box .icon{
+    width: 8.2125rem;
+    height: 6.9125rem;
+    position: absolute;
+    left: 7.69rem;
+    top: 7.67rem;
+}
+.box .text2{
+    color:#696477;
+    text-align: center;
+    font-family: "Poppins-bold-light";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+    left: 3.19rem;
+    top: 16.12rem;
+    position: absolute;
+}
+.box .text3{
+    color:#696477;
+    text-align: center;
+    font-family: "Poppins-ilight";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.035rem;
+    width: 19.875rem;
+    height: 5.8125rem;
+    left: 1.87rem;
+    top: 18.25rem;
+    position: absolute;
+}
+.box .rectangle2{
+    border-radius: 0.5rem;
+    border: 1px solid #EDEBF3;
+    background:#FFFFFF;
+    box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
+    width: 23.625rem;
+    height: 25.6875rem;
+    left: 36.19rem;
+    top: 16.25rem;
+    position: absolute;
+}
+.box .rectangle3{
+    border-radius: 0.5rem;
+    border: 1px solid #EDEBF3;
+    background:#FFFFFF;
+    box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
+    width: 23.625rem;
+    height: 25.6875rem;
+    left: 62rem;
+    top: 16.25rem;
+    position: absolute;
+}
+.box .rectangle4{
+    border-radius: 0.5rem;
+    border: 1px solid #EDEBF3;
+    background:#FFFFFF;
+    box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
+    width: 23.625rem;
+    height: 25.6875rem;
+    position: absolute;
+    left: 10.31rem;
+    top: 43.19rem;
+}
+.box .text4{
+    color:#696477;
+    text-align: center;
+    font-family: "Poppins-bold-light";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+    left: 5.81rem;
+    top: 16.12rem;
+    position: absolute
+}
+.box .rectangle5{
+    border-radius: 0.5rem;
+    border: 1px solid #EDEBF3;
+    background:#FFFFFF;
+    box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
+    width: 23.625rem;
+    height: 25.6875rem;
+    left: 36.19rem;
+    top:43.19rem;
+    position: absolute;
+}
+.box .rectangle6{
+    border-radius: 0.5rem;
+    border: 1px solid #EDEBF3;
+    background:#FFFFFF;
+    box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
+    width: 23.625rem;
+    height: 25.6875rem;
+    left: 62rem;
+    top:43.19rem;
+    position: absolute;
+}
+.box .btn{
+    border-radius: 0.5rem;
+    background:#693CDE;
+    width: 14.5rem;
+    height: 3.625rem;
+    color:#FFFFFF;
+    text-align: center;
+    font-family: "Poppins-bold";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+    left: 40.88rem;
+    top: 73.25rem;
+    position: absolute;
+    border: none;
+}

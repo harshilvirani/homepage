@@ -1,0 +1,26 @@
+<svg width="136" height="116" viewBox="0 0 136 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 2.69995H133.4V90.5H2V2.69995Z" fill="#C1A9FF"/>
+<path d="M2 2.69995H133.4V90.5H2V2.69995Z" stroke="#1F1733" stroke-width="3.44"/>
+<path d="M9.70001 10.2999H125.6V83.0999H9.70001V10.2999Z" fill="white"/>
+<path d="M9.70001 10.2999H125.6V83.0999H9.70001V10.2999Z" stroke="#1F1733" stroke-width="3.44"/>
+<path d="M42 113.3H95.6" stroke="#1F1733" stroke-width="3.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M57.5 90.7999L53.6 113.3H84.3L80.6 90.7999H57.5Z" fill="white"/>
+<path d="M57.5 90.7999L53.6 113.3H84.3L80.6 90.7999H57.5Z" stroke="#1F1733" stroke-width="3.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 53H45" stroke="#1F1733" stroke-width="3.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 63H45" stroke="#1F1733" stroke-width="3.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 73H45" stroke="#1F1733" stroke-width="3.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 73H45" stroke="#1F1733" stroke-width="3.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52 73H73" stroke="#1F1733" stroke-width="3.44" stroke-linecap="round" stroke-linejoin="round"/>
+<mask id="path-13-inside-1_0_368" fill="white">
+<rect x="20" y="18" width="95" height="27" rx="2"/>
+</mask>
+<rect x="20" y="18" width="95" height="27" rx="2" fill="#FFCE94" stroke="#1F1733" stroke-width="6.88" mask="url(#path-13-inside-1_0_368)"/>
+<mask id="path-14-inside-2_0_368" fill="white">
+<rect x="50" y="50" width="25" height="18" rx="2"/>
+</mask>
+<rect x="50" y="50" width="25" height="18" rx="2" fill="#C1A9FF" stroke="#1F1733" stroke-width="6.88" mask="url(#path-14-inside-2_0_368)"/>
+<mask id="path-15-inside-3_0_368" fill="white">
+<rect x="80" y="50" width="35" height="25" rx="2"/>
+</mask>
+<rect x="80" y="50" width="35" height="25" rx="2" fill="#B2F9DA" stroke="#1F1733" stroke-width="6.88" mask="url(#path-15-inside-3_0_368)"/>
+</svg>

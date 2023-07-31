@@ -1,0 +1,115 @@
+.box{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.box .testimonials{
+    background: #F6F5FF;
+    width: 120rem;
+    height: 50rem;
+    position: relative;
+}
+.box .title{
+    color:#1F1733;
+    text-align: center;
+    font-family: "Poppins",Helvetica;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    position: absolute;
+    left: 43.5rem;
+    top: 4.75rem;
+}
+.box .text{
+    color:#693CDE;
+    text-align: center;
+    font-family: "Poppins-bold",Helvetica;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.0875rem;
+    position: absolute;
+    top:6.69rem;
+    left:35rem;
+}
+.box .overlap{
+    border-radius: 1.875rem;
+    background:#FFFFFF;
+    box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
+    width: 74.375rem;
+    height: 27.1875rem;
+    left: 11.81rem;
+    top: 14.38rem;
+    position: absolute;
+}
+.box .img{
+    border-radius: 1.375rem;
+    width: 24.1875rem;
+    height: 24.9375rem;
+    position: absolute;
+    left: 1.12rem;
+    top: 1.12rem;
+}
+.box .coma{
+    width: 3.5625rem;
+    height: 2.75rem;
+    position: absolute;
+    left: 28.69rem;
+    top: 3.37rem;
+}
+.box .review{
+    width: 40.1875rem;
+    color:#1F1733;
+    font-family: "Poppins";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    position: absolute;
+    left: 28.69rem;
+    top: 8.5rem;
+}
+.box .name{
+    color:#1F1733;
+    font-family: "Poppins";
+    font-size: 1.1875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0475rem;
+    left: 28.69rem;
+    top: 15.87rem;
+    position: absolute;
+}
+.box .place{
+    color:#696477;
+    font-family: "Poppins-light";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.035rem;
+    left: 28.69rem;
+    top: 17.87rem;
+    position: absolute;
+}
+.box .right{
+    width: 4.5rem;
+    height: 4.5rem;
+    left: 72.12rem;
+    top: 11.31rem;
+    position: absolute;
+}
+.box .left{
+    width: 4.5rem;
+    height: 4.5rem;
+    position: absolute;
+    right: 72.12rem;
+    top: 11.31rem;
+}

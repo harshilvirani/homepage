@@ -1,0 +1,87 @@
+.box{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.box .Transform{
+    background-color: #FFFFFF;
+    width: 120rem;
+    height:36.07rem;
+    position: relative;
+}
+.box .overlap{
+    width: 79.4375rem;
+    height: 26.9375rem;
+    position: absolute;
+    left: 10.31rem;
+    top: 5rem;
+}
+.box .img{
+    width: 40.3125rem;
+    height: 26.9375rem;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.box .im{
+    border-radius: 2.5rem;
+    background: #C4C4C4;
+    width: 37.1875rem;
+    height: 23.8125rem;
+    position: absolute;
+    top: 0.31rem;
+}
+.box .rectangle{
+    border-radius: 3.125rem 0rem;
+    background: #E1DEFF;
+    width: 37.1875rem;
+    height: 23.8125rem;
+    position: absolute;
+    left: 3.12rem;
+    top: 3.44rem;
+}
+.box .text{
+    width: 34.375rem;
+    color:#1F1733;
+    font-family: "Poppins-bold",Helvetica;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.07rem;
+    left: 45.06rem;
+    top: 3.44rem;
+    position: absolute;
+}
+.box .text2{
+    color:#696477;
+    font-family: "Poppins-light",Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+    left: 45.06rem;
+    top: 10.25rem;
+    position: absolute;
+}
+.box .btn{
+    border-radius: 0.5rem;
+    background:#693CDE;
+    width: 12.5rem;
+    height: 3.625rem;
+    left: 45.06rem;
+    top: 20.81rem;
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins-semiBold",Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+    border: none;
+}
