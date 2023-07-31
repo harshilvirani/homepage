@@ -10,9 +10,7 @@
     background-color: #FFFFFF;
     width: 120rem;
     height: 62.5625rem;
-    left: 0;
-    top:0;
-    position:fixed;
+    overflow: hidden;
 }
 .box .textBox{
     height:5.625rem;
@@ -246,6 +244,35 @@
     letter-spacing: 0.035rem;
     left: 1.94rem;
     top: 22.31rem;
+    position: absolute;
+}
+.box .success{
+    width: 76.3125rem;
+    height: 9.3125rem;
+    left: 11.38rem;
+    top: 48.75rem;
+    position: absolute;
+}
+.box .img{
+    background-color:#403953;
+    border-radius: 0.5rem;
+    height: 9.3125rem;
+    width: 76.3125rem;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.box .text12{
+    color:#FFFFFF;
+    font-family: "Poppins-bold",Helvetica;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0675rem;
+    left: 35.81rem;
+    top: 3.38rem;
     position: absolute;
 }
 

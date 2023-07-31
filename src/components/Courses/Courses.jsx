@@ -3,6 +3,7 @@ import digital from '../../assests/Digital-Marketing 1.png'
 import online from '../../assests/Online-Project 1.png'
 import guide from '../../assests/CareerGuide-2 1.png'
 import classes from './Courses.module.css'
+import loding from '../../assests/e-learning.png'
 
 const Courses = () => {
     return (
@@ -14,11 +15,11 @@ const Courses = () => {
                     <span className={classes.textWrapper}>Absolutely Free</span>
                 </div>
                 <div className={classes.digitalMarketing}>
-                        <img className={classes.diImg} src={digital} alt=""/>
-                        <div className={classes.discount}>
-                            <span className={classes.text2}>$90</span>
-                            <span className={classes.text3}>Free</span>
-                        </div>
+                    <img className={classes.diImg} src={digital} alt=""/>
+                    <div className={classes.discount}>
+                        <span className={classes.text2}>$90</span>
+                        <span className={classes.text3}>Free</span>
+                    </div>
                     <div className={classes.text6}>Get Started with Digital Marketing</div>
                     <div className={classes.text7}>Online SEO Course</div>
                     <button className={classes.btn}>Send Me Free Access</button>
@@ -38,6 +39,10 @@ const Courses = () => {
                     <div className={classes.text10}>Get Started with 2021 Career Guide</div>
                     <div className={classes.text11}>Learn the fast growing in-demand skills in 2021</div>
                     <button className={classes.btn2}>Send Me Free Guide</button>
+                </div>
+                <div className={classes.success}>
+                        <img className={classes.img} src={loding} alt=" "/>
+                        <div className={classes.text12}>Our Risk-Free Guarantee For Your Success</div>
                 </div>
             </div>
         </div>

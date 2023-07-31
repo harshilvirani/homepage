@@ -14,9 +14,7 @@
 .box .header{
     background-color: #FFFFFF;
     height: 6.25rem;
-    left: 0;
-    position: fixed;
-    top: 0;
+    position: absolute;
     width: 120rem;
 }
 .box .logo{
