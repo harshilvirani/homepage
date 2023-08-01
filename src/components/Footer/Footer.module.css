@@ -65,7 +65,7 @@
     height: 12.125rem;
     position: absolute;
     left: 22.31rem;
-    top: 12.44rem;
+    top: 14.44rem;
 }
 .box .text{
     color:#696477;
@@ -80,7 +80,7 @@
     width: 17.25rem;
     height: 10.57481rem;
     left: 44.88rem;
-    top: 11.44rem;
+    top: 13.44rem;
     position: absolute;
 }
 .box .course{
@@ -88,7 +88,7 @@
     height: 15.5rem;
     position: absolute;
     left: 67.62rem;
-    top: 11.44rem;
+    top: 13.44rem;
 }
 .box .text1{
     color:#693CDE;
@@ -113,18 +113,20 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-between;
+    gap: 0.62rem;
 }
 .box .phone{
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start ;
     align-items: center;
+    gap: 0.62rem;
 }
 .box .post{
     width: 10.625rem;
     height: 4.69713rem;
     left: 83.69rem;
-    top: 12.44rem;
+    top: 14.44rem;
     position: absolute;
 }
 .box .insta{
@@ -147,13 +149,14 @@
     position: absolute;
 }
 .box .textbox{
-    left: 81.88rem;
+    left: 79.88rem;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     text-decoration: none;
     list-style: none;
+    gap: 1.5rem;
 }
 .box .text5{
     color:#1F1733;

@@ -4,15 +4,25 @@
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    position: relative;
+}
+.box .events{
     height: 60.0675rem;
+    width: 120rem;
+    position:relative;
+}
+.box .overlap{
+    width: 79.4375rem;
+    height: 35.9375rem;
+    left: 10.31rem;
+    top: 6.25rem;
+    position: absolute;
 }
 .box .title{
     width: 17.875rem;
     height: 5.625rem;
     position: absolute;
-    left: 39.81rem;
-    top: 6.25rem;
+    left:30.81rem;
+    top: 0rem;
 }
 .box .text{
     color:#1F1733;
@@ -42,8 +52,8 @@
     width: 39.0625rem;
     height: 8.875rem;
     position: absolute;
-    top: 16.25rem;
-    left: 10.31rem;
+    top: 10rem;
+    left: 0.06rem;
 }
 .box .img{
     border-radius: 0.625rem;
@@ -101,8 +111,8 @@
     width: 39.0625rem;
     height: 8.875rem;
     position: absolute;
-    top: 16.25rem;
-    left: 50.62rem;
+    top: 10rem;
+    left:40.38rem;
 }
 .box .rectangle3{
     border-radius: 0.9375rem;
@@ -111,8 +121,8 @@
     width: 39.0625rem;
     height: 8.875rem;
     position: absolute;
-    top: 26.38rem;
-    left: 10.31rem;
+    top: 20.13rem;
+    left: 0.06rem;
 }
 .box .rectangle4{
     border-radius: 0.9375rem;
@@ -121,16 +131,16 @@
     width: 39.0625rem;
     height: 8.875rem;
     position: absolute;
-    top: 26.38rem;
-    left:50.62rem;
+    top: 20.13rem;
+    left:40.38rem;
 }
 .box .btn2{
     border-radius: 0.5rem;
     background:#693CDE;
     width: 12.5rem;
     height: 3.1875rem;
-    left: 43.69rem;
-    top: 39rem;
+    left: 33.44rem;
+    top: 32.75rem;
     position: absolute;
     border: none;
     color:#FFFFFF;

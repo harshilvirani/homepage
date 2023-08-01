@@ -10,7 +10,7 @@
     background-color: #FFFFFF;
     width: 120rem;
     height: 62.5625rem;
-    overflow: hidden;
+    position: relative;
 }
 .box .textBox{
     height:5.625rem;
