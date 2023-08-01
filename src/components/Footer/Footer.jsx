@@ -7,13 +7,14 @@ const Footer = () => {
     return (
         <div className={classes.box}>
             <div className={classes.footer}>
-                <div className={classes.box2}>
-                    <div className={classes.text3}>if you have read this far, you might as well want to start the free
-                        trial
-                    </div>
-                    <button className={classes.btn3}>Start The Course Now</button>
-                </div>
                 <div className={classes.footer1}>
+                    <div className={classes.box2}>
+                        <div className={classes.text3}>if you have read this far, you might as well want to start the
+                            free
+                            trial
+                        </div>
+                        <button className={classes.btn3}>Start The Course Now</button>
+                    </div>
                     <div className={classes.about}>
                         <img src={logo} alt=" "/>
                         <p className={classes.text}>We denounce with righteous india nationality and dislike men who are
@@ -58,12 +59,12 @@ const Footer = () => {
                 <p className={classes.text4}>
                     Copyright © 2020. Tenacious Techies. All rights reserved.
                 </p>
-                   <ul className={classes.textbox}>
-                       <li className={classes.text5}>FAQs</li>
-                       <li className={classes.text5}>About</li>
-                       <li className={classes.text5}>Blog</li>
-                       <li className={classes.text5}>Contact</li>
-                   </ul>
+                <ul className={classes.textbox}>
+                    <li className={classes.text5}>FAQs</li>
+                    <li className={classes.text5}>About</li>
+                    <li className={classes.text5}>Blog</li>
+                    <li className={classes.text5}>Contact</li>
+                </ul>
             </div>
         </div>
     )
