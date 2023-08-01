@@ -1,0 +1,167 @@
+.box{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.box .footer{
+    width: 120rem;
+    height: 44.3125rem;
+    position: relative;
+}
+.box .box2{
+    border-radius: 1.25rem;
+    background:#693CDE;
+    box-shadow: 0px 15px 38px 0px rgba(52, 49, 100, 0.10);
+    width: 79.375rem;
+    height: 12.25rem;
+    left: 10.31rem;
+    top:0;
+    position:absolute;
+}
+.box .text3{
+    color:#FFFFFF;
+    font-family: "Poppins-bold",Helvetica;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+    width: 41rem;
+    left: 5rem;
+    top: 3.31rem;
+    position: absolute;
+}
+.box .btn3{
+    border-radius: 0.5rem;
+    background:#0DCC7C;
+    width: 16.875rem;
+    height: 4.1875rem;
+    left: 57.5rem;
+    top: 4.06rem;
+    position: absolute;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Poppins-bold";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+}
+.box .footer1{
+    background: #F8F8FF;
+    width: 120rem;
+    height: 37.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box .about{
+    width: 18.9375rem;
+    height: 12.125rem;
+    position: absolute;
+    left: 22.31rem;
+    top: 12.44rem;
+}
+.box .text{
+    color:#696477;
+    font-family: "Poppins-light";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+}
+.box .contact{
+    width: 17.25rem;
+    height: 10.57481rem;
+    left: 44.88rem;
+    top: 11.44rem;
+    position: absolute;
+}
+.box .course{
+    width: 14.6875rem;
+    height: 15.5rem;
+    position: absolute;
+    left: 67.62rem;
+    top: 11.44rem;
+}
+.box .text1{
+    color:#693CDE;
+    font-family: "Poppins-bold";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+}
+.box .text2{
+    color: #1E2833;
+    font-family: "Poppins-light";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.035rem;
+}
+.box .address{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+.box .phone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start ;
+    align-items: center;
+}
+.box .post{
+    width: 10.625rem;
+    height: 4.69713rem;
+    left: 83.69rem;
+    top: 12.44rem;
+    position: absolute;
+}
+.box .insta{
+    width: 10.625rem;
+    height: 1.63463rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+.box .text4{
+    color:#696477;
+    font-family: "Poppins-light";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.035rem;
+    left: 20.31rem;
+    position: absolute;
+}
+.box .textbox{
+    left: 81.88rem;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+.box .text5{
+    color:#1F1733;
+    text-align: right;
+    font-family: "Poppins-bold";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0375rem;
+}

@@ -9,6 +9,9 @@ import Technologies from "./components/Technologies/Technologies";
 import Transform from "./components/Transform/Transform";
 import Path from "./components/Path/Path";
 import Future from "./components/Future/Future";
+import Teachers from "./components/Teachers/Teachers";
+import Events from "./components/Events/Events";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
         <Transform/>
         <Path/>
         <Future/>
+        <Teachers/>
+        <Events/>
+        <Footer/>
     </div>
   );
 }
