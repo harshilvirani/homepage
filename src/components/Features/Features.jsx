@@ -5,6 +5,7 @@ import icon2 from '../../assests/Practical Training icon.svg'
 import icon3 from '../../assests/10 Years of Industry Experienced icon.svg'
 import icon4 from '../../assests/Professional Trainers icon.svg'
 
+
 const Features = () => {
     return(
         <div className={classes.box}>
