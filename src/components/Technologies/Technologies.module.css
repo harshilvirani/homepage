@@ -1,21 +1,24 @@
 .box{
     background-color: transparent;
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     justify-content: center;
     width: 100%;
 }
 .box .technologies{
     background-color: #FFFFFF;
-    width: 120rem;
+    /*width: 120rem;*/
     height: 34.375rem;
-    position: relative;
+    /*position: relative;*/
 }
 .box .title{
-    width: 50.5rem;
-    left: 24.75rem;
-    top: 5.62rem;
-    position: absolute;
+    /*width: 50.5rem;*/
+    /*left: 24.75rem;*/
+    /*top: 5.62rem;*/
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 .box .p{
     color: #1F1733;
@@ -26,6 +29,9 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.0675rem;
+    display: flex;
+    margin: auto;
+    padding-top: 5.63rem;
 }
 .box .ptext{
     color: #1F1733;
@@ -40,85 +46,14 @@
 .box .img{
     width: 79.375rem;
     height: 12.375rem;
-    position: absolute;
-    left: 10.31rem;
-    top: 19.94rem;
+    /*position: absolute;*/
+    /*left: 10.31rem;*/
+    /*top: 19.94rem;*/
     align-items: center;
-}
-.box .img1{
-    width: 11.1875rem;
-    height: 2.75rem;
-    position: absolute;
-    left: 0.5rem;
-    top: 0.94rem;
-}
-.box .img2{
-    left: 16.44rem;
-    top: 0.19rem;
-    position: absolute;
-    width: 6.1875rem;
-    height: 4.25rem;
-}
-.box .img3{
-    left: 27.25rem;
-    top: 0.75rem;
-    position: absolute;
-    width: 11.4375rem;
-    height: 3.125rem;
-}
-.box .img4{
-    left: 42.5rem;
-    top: 0.44rem;
-    position: absolute;
-    width: 7.875rem;
-    height: 3.75rem;
-}
-.box .img5{
-    left: 57.94rem;
-    top: 0.06rem;
-    position: absolute;
-    width: 3.8125rem;
-    height: 4.5625rem;
-}
-.box .img6{
-    left: 71.63rem;
-    position: absolute;
-    width: 3.375rem;
-    height: 4.6875rem;
-}
-.box .img7{
-    left: 7.06rem;
-    top: 8.81rem;
-    position: absolute;
-    width: 11.5rem;
-    height: 2.5rem;
-}
-.box .img8{
-    left: 20.69rem;
-    top: 8.5rem;
-    position: absolute;
-    width: 11.125rem;
-    height: 3.125rem;
-}
-.box .img9{
-    position: absolute;
-    left: 34.81rem;
-    top: 8.69rem;
-    width: 9.875rem;
-    height: 2.8125rem;
-
-}
-.box .img10{
-    position: absolute;
-    left: 47.63rem;
-    top: 8.5rem;
-    width: 11.125rem;
-    height: 3.1875rem;
-}
-.box .img11{
-    position: absolute;
-    left: 63.12rem;
-    top: 8.24rem;
-    width: 7rem;
-    height: 3.64581rem;
+    display: flex;
+    gap: 4.75rem;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 6.94rem;
 }

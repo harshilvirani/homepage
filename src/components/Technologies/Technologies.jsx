@@ -12,6 +12,41 @@ import img9 from  '../../assests/image 11.png'
 import img10 from  '../../assests/image 12.png'
 import img11 from  '../../assests/image 13.png'
 const Technologies = () => {
+    const Img = [
+        {
+            img:img1
+        },
+        {
+            img:img2
+        },
+        {
+            img:img3
+        },
+        {
+            img:img4
+        },
+        {
+            img:img5
+        },
+        {
+            img:img6
+        },
+        {
+            img:img7
+        },
+        {
+            img:img8
+        },
+        {
+            img:img9
+        },
+        {
+            img:img10
+        },
+        {
+            img:img11
+        }
+    ]
       return(
           <div className={classes.box}>
               <div className={classes.technologies}>
@@ -20,17 +55,11 @@ const Technologies = () => {
                       <p className={classes.ptext}>courses in following technologies</p>
                   </div>
                   <div className={classes.img}>
-                      <img src={img1} alt="img1" className={classes.img1}/>
-                      <img src={img2} alt="img2 " className={classes.img2}/>
-                      <img src={img3} alt="img3" className={classes.img3}/>
-                      <img src={img4} alt="img4" className={classes.img4}/>
-                      <img src={img5} alt="img5" className={classes.img5}/>
-                      <img src={img6} alt="img6" className={classes.img6}/>
-                      <img src={img7} alt="img7" className={classes.img7}/>
-                      <img src={img8} alt="img8" className={classes.img8}/>
-                      <img src={img9} alt="img9" className={classes.img9}/>
-                      <img src={img10} alt="img10" className={classes.img10}/>
-                      <img src={img11} alt="img11" className={classes.img11}/>
+                      {
+                          Img.map((item,i) => (
+                              <img key={i} src={item.img}/>
+                          ))
+                      }
                   </div>
               </div>
           </div>

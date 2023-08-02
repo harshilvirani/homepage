@@ -49,15 +49,17 @@ const Journey = () => {
     return (
         <div className={classes.box}>
             <div className={classes.journey}>
-                <p className={classes.title}>Become a Professional Today </p>
-                <p className={classes.h1}>Start a career in fast growing Technology, Sales and Marketing Skills by
-                    joining our practical online and offline training courses</p>
+                <div className={classes.titleBox}>
+                    <p className={classes.title}>Become a Professional Today </p>
+                    <p className={classes.h1}>Start a career in fast growing Technology, Sales and Marketing Skills by
+                        joining our practical online and offline training courses</p>
+                </div>
                 <div className={classes.rectangle}>
                     {
                         Data.map((item, i) => (
                             <div key={i} className={classes.rectangle1}>
                                 <p className={classes.text}>{item.title}</p>
-                                <img className={classes.icon} src={item.icon} alt=" "/>
+                                <img className={classes.icon} src={item.icon}/>
                                 <p className={classes.text2}>{item.text2}</p>
                                 <p className={classes.text3}>{item.text3}</p>
                             </div>

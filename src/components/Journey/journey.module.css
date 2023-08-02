@@ -1,61 +1,83 @@
-.box{
+.box {
     background-color: transparent;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
 }
 .box .journey{
-    position: relative;
-    width: 120rem;
     height: 81.25rem;
 }
-.box .title{
+.box .titleBox{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    padding-top: 5rem;
+}
+.box .journey {
+    /*position: relative;*/
+    /*width: 120rem;*/
+    height: 81.25rem;
+}
+
+.box .rectangle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 5rem;
+    flex-direction:row;
+    gap:1.25rem;
+
+}
+
+.box .title {
     color: #693CDE;
     text-align: center;
-    font-family: "Poppins-bold",Helvetica;
+    font-family: "Poppins-bold", Helvetica;
     font-size: 1.8125rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     letter-spacing: 0.0725rem;
     text-transform: uppercase;
-    left: 30.94rem;
-    top: 5rem;
-    position: absolute;
+    /*left: 30.94rem;*/
+    /*top: 5rem;*/
+    /*position: absolute;*/
 }
-.box .h1{
-    color:#696477;
+
+.box .h1 {
+    color: #696477;
     width: 43.125rem;
     text-align: center;
-    font-family: "Poppins-light",Helvetica;
+    font-family: "Poppins-light", Helvetica;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.04rem;
-    left: 27.44rem;
-    position: absolute;
-    top: 9.25rem;
+    margin: auto;
+    /*left: 27.44rem;*/
+    /*position: absolute;*/
+    /*top: 9.25rem;*/
 }
-.box .rectangle{
-    display: flex;
-    flex-wrap: wrap;
-}
-.box .rectangle1{
+
+.box .rectangle1 {
     border-radius: 0.5rem;
     border: 1px solid #EDEBF3;
-    background:#FFFFFF;
+    background: #FFFFFF;
     box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
     width: 23.625rem;
     height: 25.6875rem;
-    position: absolute;
-    left: 10.31rem;
-    top: 16.25rem;
+    /*position: absolute;*/
+    /*left: 10.31rem;*/
+    /*top: 16.25rem;*/
 }
-.box .text{
+
+.box .text {
     width: 22.625rem;
-    color:#1F1733;
+    color: #1F1733;
     text-align: center;
     font-family: "Poppins-bold";
     font-size: 1.25rem;
@@ -63,19 +85,23 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.05rem;
-    position: absolute;
-    left: 0.5rem;
-    top: 2.25rem;
+    /*position: absolute;*/
+    /*left: 0.5rem;*/
+    /*top: 2.25rem;*/
 }
-.box .icon{
+
+.box .icon {
     width: 8.2125rem;
     height: 6.9125rem;
-    position: absolute;
-    left: 7.69rem;
-    top: 7.67rem;
+    /*position: absolute;*/
+    /*left: 7.69rem;*/
+    /*top: 7.67rem;*/
+    display: flex;
+    margin: auto;
 }
-.box .text2{
-    color:#696477;
+
+.box .text2 {
+    color: #696477;
     text-align: center;
     font-family: "Poppins-bold-light";
     font-size: 1rem;
@@ -83,40 +109,52 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.04rem;
-    left: 3.19rem;
-    top: 16.12rem;
-    position: absolute;
+    /*left: 3.19rem;*/
+    /*top: 16.12rem;*/
+    /*position: absolute;*/
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
 }
-.box .text3{
-    color:#696477;
+
+.box .text3 {
+    color: #696477;
     text-align: center;
     font-family: "Poppins-ilight";
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.035rem;
     width: 19.875rem;
     height: 5.8125rem;
-    left: 1.87rem;
-    top: 18.25rem;
-    position: absolute;
+    /*left: 1.87rem;*/
+    /*top: 18.25rem;*/
+    /*position: absolute;*/
+    display: flex;
+    margin: auto;
 }
-.box .btn{
-     border-radius: 0.5rem;
-     background:#693CDE;
-     width: 14.5rem;
-     height: 3.625rem;
-     color:#FFFFFF;
-     text-align: center;
-     font-family: "Poppins-bold";
-     font-size: 1rem;
-     font-style: normal;
-     font-weight: 600;
-     line-height: normal;
-     letter-spacing: 0.04rem;
-     left: 40.88rem;
-     top: 73.25rem;
-     position: absolute;
-     border: none;
- }
+
+.box .btn {
+    border-radius: 0.5rem;
+    background: #693CDE;
+    width: 14.5rem;
+    height: 3.625rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Poppins-bold";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+    /*left: 40.88rem;*/
+    /*top: 73.25rem;*/
+    /*position: absolute;*/
+    border: none;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

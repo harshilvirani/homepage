@@ -6,6 +6,23 @@ import img3 from '../../assests/teacher_21 1.png'
 import icon from '../../assests/pagination.svg'
 
 const Teachers = () => {
+    const Data = [
+        {
+            img:img1,
+            text2:"Melenia Trump",
+            text3:"SEO Expert"
+        },
+        {
+            img:img2,
+            text2:"Hosaifa Albenian",
+            text3:"UI/UX Expert"
+        },
+        {
+            img:img3,
+            text2:"Shuprio Shaa",
+            text3:"Flutter Master"
+        }
+    ]
     return(
         <div className={classes.box}>
             <div className={classes.teachers}>
@@ -13,20 +30,16 @@ const Teachers = () => {
                     <p className={classes.text}>Meet our</p>
                     <p className={classes.text1}>Expert Teachers</p>
                 </div>
-                <div className={classes.rectangle1}>
-                    <img className={classes.img} src={img1} alt=" "/>
-                    <p className={classes.text2}>Melenia Trump</p>
-                    <p className={classes.text3}>SEO Expert</p>
-                </div>
-                <div className={classes.rectangle2}>
-                    <img className={classes.img} src={img2} alt=" "/>
-                    <p className={classes.text2}>Hosaifa Albenian</p>
-                    <p className={classes.text3}>UI/UX Expert</p>
-                </div>
-                <div className={classes.rectangle3}>
-                    <img className={classes.img} src={img3} alt=" "/>
-                    <p className={classes.text2}>Shuprio Shaa</p>
-                    <p className={classes.text3}>Flutter Master</p>
+                <div className={classes.rectangle}>
+                    {
+                        Data.map((item,i) => (
+                            <div key={i} className={classes.rectangle1}>
+                                <img className={classes.img} src={item.img} alt=" "/>
+                                <p className={classes.text2}>{item.text2}</p>
+                                <p className={classes.text3}>{item.text3}</p>
+                            </div>
+                        ))
+                    }
                 </div>
                 <img className={classes.icon} src={icon} alt=" "/>
             </div>

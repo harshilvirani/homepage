@@ -1,20 +1,28 @@
 .box{
     background-color: transparent;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
 }
 .box .features{
     position: relative;
-    width: 120rem;
+    /*width: 120rem;*/
     height: 37.125rem;
 }
 .box .overlap{
     background-image:url("../../assests/speaker-business-meeting-conference-hall-business-entrepreneurship-concept 1.png");
     background-size: 100% 100%;
-    width: 120rem;
+    /*width: 120rem;*/
     height: 37.125rem;
+}
+.box .rectangle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+    margin-top: 9.13rem;
 }
 .box .rectangle1{
     border-radius: 1.25rem;
@@ -22,16 +30,20 @@
     box-shadow: 0px 12px 35px 0px rgba(53, 49, 122, 0.12);
     width: 18.9375rem;
     height: 18.875rem;
-    position: absolute;
-    left: 20.31rem;
-    top: 9.12rem;
+    /*position: absolute;*/
+    /*left: 20.31rem;*/
+    /*top: 9.12rem;*/
 }
 .box .icon1{
     width: 6rem;
     height: 6rem;
-    left: 6.5rem;
-    top: 2.37rem;
-    position: absolute;
+    justify-content: center;
+    padding-top: 2.38rem;
+    margin: auto;
+    display: flex;
+    /*left: 6.5rem;*/
+    /*top: 2.37rem;*/
+    /*position: absolute;*/
 }
 .box .text1{
     color: #1F1733;
@@ -42,9 +54,9 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03rem;
-    position: absolute;
-    left: 3.5rem;
-    top: 9.94rem;
+    /*position: absolute;*/
+    /*left: 3.5rem;*/
+    /*top: 9.94rem;*/
 }
 .box .text2{
     color:#696477;
@@ -55,76 +67,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.035rem;
-    position: absolute;
-    left: 0.62rem;
-    top: 11.94rem;
-}
-.box .rectangle2{
-    border-radius: 1.25rem;
-    background:#FFFFFF;
-    box-shadow: 0px 12px 35px 0px rgba(53, 49, 122, 0.12);
-    width: 18.9375rem;
-    height: 18.875rem;
-    position: absolute;
-    left: 40.5rem;
-    top: 9.12rem;
-}
-.box .text3{
-    color:#1F1733;
-    text-align: center;
-    font-family: "Poppins-bold";
-    font-size: 1.1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.04rem;
-    top: 9.94rem;
-    left: 5rem;
-    position: absolute;
-}
-.box .rectangle3{
-    border-radius: 1.25rem;
-    background:#FFFFFF;
-    box-shadow: 0px 12px 35px 0px rgba(53, 49, 122, 0.12);
-    width: 18.9375rem;
-    height: 18.875rem;
-    position: absolute;
-    left: 60.69rem;
-    top: 9.12rem;
-}
-.box .text4{
-    color:#1F1733;
-    text-align: center;
-    font-family: "Poppins-bold";
-    font-size: 1.1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.04rem;
-    top: 9.94rem;
-    left: 0.94rem;
-    position: absolute;
-}
-.box .rectangle4{
-    border-radius: 1.25rem;
-    background:#FFFFFF;
-    box-shadow: 0px 12px 35px 0px rgba(53, 49, 122, 0.12);
-    width: 18.9375rem;
-    height: 18.875rem;
-    position: absolute;
-    left: 80.88rem;
-    top: 9.12rem;
-}
-.box .text5{
-    color:#1F1733;
-    text-align: center;
-    font-family: "Poppins-bold";
-    font-size: 1.1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.04rem;
-    top: 9.94rem;
-    left: 4rem;
-    position: absolute;
+    /*position: absolute;*/
+    /*left: 0.62rem;*/
+    /*top: 11.94rem;*/
 }

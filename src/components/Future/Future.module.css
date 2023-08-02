@@ -2,22 +2,23 @@
     background-color: transparent;
     display: flex;
     justify-content:center;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
 }
 .box .future{
-    width: 120rem;
+    /*width: 120rem;*/
     height: 42.5rem;
     background: #FFFFFF;
-    position: relative;
+    /*position: relative;*/
 }
-.box .title{
-    width: 9rem;
-    height: 5.625rem;
-    left: 44.5rem;
-    top: 3.13rem;
-    position: absolute;
-}
+/*.box .title{*/
+/*    !*width: 9rem;*!*/
+/*    !*height: 5.625rem;*!*/
+/*    !*left: 44.5rem;*!*/
+/*    !*top: 3.13rem;*!*/
+/*    !*position: absolute;*!*/
+
+/*}*/
 .box .text1{
     color:#1F1733;
     text-align: center;
@@ -39,21 +40,30 @@
     text-transform: uppercase;
     text-align: center;
 }
+.box .rectangle{
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    justify-content: center;
+}
 .box .rectangle1{
     width: 18.9375rem;
     height: 21rem;
     border-radius: 1.25rem;
     background: #EDFAFF;
-    left: 10.31rem;
-    top: 13.38rem;
-    position: absolute;
+    /*left: 10.31rem;*/
+    /*top: 13.38rem;*/
+    /*position: absolute;*/
 }
 .box .icon{
     width: 6rem;
     height: 6rem;
-    left: 6.5rem;
-    top: 2rem;
-    position: absolute;
+    /*left: 6.5rem;*/
+    /*top: 2rem;*/
+    /*position: absolute;*/
+    display: flex;
+    margin: auto;
+    padding-top:2rem;
 }
 .box .text3{
     color:#1F1733;
@@ -64,9 +74,12 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03rem;
-    left: 5.69rem;
-    top: 9.25rem;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    /*left: 5.69rem;*/
+    /*top: 9.25rem;*/
+    /*position: absolute;*/
 }
 .box .text4{
     width: 15.6875rem;
@@ -78,9 +91,12 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.0175rem;
-    left: 1.62rem;
-    top: 11.25rem;
-    position: absolute;
+    /*left: 1.62rem;*/
+    /*top: 11.25rem;*/
+    /*position: absolute;*/
+    display: flex;
+    margin:1rem;
+
 }
 .box .btn{
     border-radius: 0.5rem;
@@ -95,29 +111,21 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.035rem;
-    left: 4.25rem;
-    top: 15.87rem;
-    position: absolute;
+    /*left: 4.25rem;*/
+    /*top: 15.87rem;*/
+    /*position: absolute;*/
 }
-.box .rectangle2{
-    border-radius: 1.25rem;
-    background: #FFF5ED;
-    width: 18.9375rem;
-    height: 21rem;
-    left: 30.56rem;
-    top: 13.38rem;
-    position: absolute;
-}
-.box .btn2{
+
+.box .btn2 {
     border-radius: 0.5rem;
-    background:#FFFFFF;
+    background: #FFFFFF;
     width: 10.4375rem;
     height: 3.125rem;
-    left: 4.25rem;
-    top: 15.87rem;
-    position: absolute;
+    /*left: 4.25rem;*/
+    /*top: 15.87rem;*/
+    /*position: absolute;*/
     border: none;
-    color:#1F1733;
+    color: #1F1733;
     text-align: center;
     font-family: "Poppins-bold";
     font-size: 0.875rem;
@@ -125,48 +133,9 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.035rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
-.box .rectangle3{
-    border-radius: 1.25rem;
-    background: #FFEDF9;
-    width: 18.9375rem;
-    height: 21rem;
-    position: absolute;
-    left: 50.75rem;
-    top: 13.25rem;
-}
-.box .text5{
-    color:#1F1733;
-    text-align: center;
-    font-family: "Poppins-bold";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.03rem;
-    left: 2.69rem;
-    top: 9.25rem;
-    position: absolute;
-}
-.box .rectangle4{
-    border-radius: 1.25rem;
-    background: #FFEDED;
-    width: 18.9375rem;
-    height: 21rem;
-    top: 13.25rem;
-    left: 70.94rem;
-    position: absolute;
-}
-.box .text6{
-    color:#1F1733;
-    text-align: center;
-    font-family: "Poppins-bold";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.03rem;
-    left: 4.69rem;
-    top: 9.25rem;
-    position: absolute;
-}
+
