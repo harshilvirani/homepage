@@ -8,46 +8,69 @@ import icon1 from '../../assests/Stroke 3.svg'
 import icon2 from '../../assests/calender.svg'
 
 const Events = () => {
+    const Data = [
+        {
+            img: img1,
+            text2: "Advanced Social Media Strategy | Online",
+            icon2: icon2,
+            date: "Tuesday, 29 June",
+            icon1: icon1
+
+        },
+        {
+            img: img2,
+            text2: "Introduce to Figma | Online",
+            icon2: icon2,
+            date: "Tuesday, 29 June",
+            icon1: icon1
+
+        },
+        {
+            img: img3,
+            text2: "Leading Tech Teams: A How to Guide for the Non-Technical | Online",
+            icon2: icon2,
+            date: "Wednesday, 30 June",
+            icon1: icon1
+
+        },
+        {
+            img: img4,
+            text2: "Leading Tech Teams: A How to Guide for the Non-Technical | Online",
+            icon2: icon2,
+            date: "Tuesday, 29 June",
+            icon1: icon1
+
+        }
+    ]
     return (
         <div className={classes.box}>
             <div className={classes.events}>
-                <div className={classes.overlap}>
-                    <div className={classes.title}>
-                        <p className={classes.text}>Upcoming Events in</p>
-                        <p className={classes.text1}>Online</p>
-                    </div>
-                    <div className={classes.rectangle1}>
-                        <img className={classes.img} src={img1} alt=""/>
-                        <p className={classes.text2}>Advanced Social Media Strategy | Online</p>
-                        <img className={classes.icon2} src={icon2} alt=""/>
-                        <p className={classes.date}>Tuesday, 29 June</p>
-                        <img className={classes.icon1} src={icon1} alt=""/>
-                    </div>
-                    <div className={classes.rectangle2}>
-                        <img className={classes.img} src={img2} alt=""/>
-                        <p className={classes.text2}>Introduce to Figma | Online</p>
-                        <img className={classes.icon2} src={icon2} alt=""/>
-                        <p className={classes.date}>Tuesday, 29 June</p>
-                        <img className={classes.icon1} src={icon1} alt=""/>
-                    </div>
-                    <div className={classes.rectangle3}>
-                        <img className={classes.img} src={img3} alt=""/>
-                        <p className={classes.text2}>Leading Tech Teams: A How to Guide for the Non-Technical |
-                            Online</p>
-                        <img className={classes.icon2} src={icon2} alt=""/>
-                        <p className={classes.date}>Wednesday, 30 June</p>
-                        <img className={classes.icon1} src={icon1} alt=""/>
-                    </div>
-                    <div className={classes.rectangle4}>
-                        <img className={classes.img} src={img4} alt=""/>
-                        <p className={classes.text2}>Create your Own Personal Brand</p>
-                        <img className={classes.icon2} src={icon2} alt=""/>
-                        <p className={classes.date}>Tuesday, 29 June</p>
-                        <img className={classes.icon1} src={icon1} alt=""/>
-                    </div>
-                    <button className={classes.btn2}>View All Events</button>
+                {/*<div className={classes.overlap}>*/}
+                <div className={classes.title}>
+                    <p className={classes.text}>Upcoming Events in</p>
+                    <p className={classes.text1}>Online</p>
                 </div>
+                <div className={classes.rectangle}>
+                    {
+                        Data.map((item, i) => (
+                            <div key={i} className={classes.rectangle1}>
+                                    <img className={classes.img} src={item.img} alt=""/>
+                                    <div className={classes.textBox}>
+                                        <p className={classes.text2}>{item.text2}</p>
+                                        <div className={classes.cal}>
+                                            <img className={classes.icon2} src={item.icon2} alt=""/>
+                                            <p className={classes.date}>{item.date}</p>
+                                        </div>
+                                    </div>
+                                    <img className={classes.icon1} src={item.icon1} alt=""/>
+                            </div>
+
+                        ))
+                    }
+                </div>
+                <button className={classes.btn2}>View All Events</button>
             </div>
+            {/*</div>*/}
         </div>
     )
 }
