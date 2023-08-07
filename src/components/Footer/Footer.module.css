@@ -1,55 +1,67 @@
-.box{
+.box {
     background-color: transparent;
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
 }
-.box .footer{
+
+.box .footer {
     /*width: 120rem;*/
     height: 44.3125rem;
 
     /**position: relative;*!*/
 }
-.box .box2{
+
+.box .box2 {
     border-radius: 1.25rem;
-    background:#693CDE;
+    background: #693CDE;
     box-shadow: 0px 15px 38px 0px rgba(52, 49, 100, 0.10);
     width: 79.375rem;
     height: 12.25rem;
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    /*padding: 3.30rem 5rem;*/
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
+
+    transform: translateY(-50%);
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
     /*left: 20.31rem;*/
     /*top:-6.56rem;*/
     /*position:absolute;*/
 }
-.box .text3{
-    color:#FFFFFF;
-    font-family: "Poppins-bold",Helvetica;
+
+.box .text3 {
+    color: #FFFFFF;
+    font-family: "Poppins-bold", Helvetica;
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.075rem;
-    display: flex;
-    margin: auto;
-    align-items: center;
+    padding: 3.30rem 3rem;
+    /*display: flex;*/
+    /*margin: auto;*/
+    /*align-items: center;*/
     /*width: 41rem;*/
     /*left: 5rem;*/
     /*top: 3.31rem;*/
     /*position: absolute;*/
 }
-.box .btn3{
+
+.box .btn3 {
     border-radius: 0.5rem;
-    background:#0DCC7C;
+    background: #0DCC7C;
     width: 16.875rem;
     height: 4.1875rem;
     /*left: 57.5rem;*/
     /*top: 4.06rem;*/
     /*position: absolute;*/
     border: none;
+    margin: auto;
     color: #FFFFFF;
     text-align: center;
     font-family: "Poppins-bold";
@@ -59,23 +71,27 @@
     line-height: normal;
     letter-spacing: 0.045rem;
 }
-.box .row{
+
+.box .row {
     display: flex;
     margin: auto;
     flex-direction: row;
     justify-content: space-between;
 
 }
-.box .footer1{
+
+.box .footer1 {
     background: #F8F8FF;
     /*width: 120rem;*/
     height: 37.75rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     /*position: relative;*/
 
 }
-.box .about{
+
+.box .about {
     width: 18.9375rem;
     height: 12.125rem;
     display: flex;
@@ -86,8 +102,9 @@
     /*left: 22.31rem;*/
     /*top: 14.44rem;*/
 }
-.box .text{
-    color:#696477;
+
+.box .text {
+    color: #696477;
     font-family: "Poppins-light";
     font-size: 1rem;
     font-style: normal;
@@ -95,7 +112,8 @@
     line-height: normal;
     letter-spacing: 0.04rem;
 }
-.box .contact{
+
+.box .contact {
     width: 17.25rem;
     height: 10.57481rem;
     display: flex;
@@ -105,7 +123,8 @@
     /*top: 13.44rem;*/
     /*position: absolute;*/
 }
-.box .course{
+
+.box .course {
     width: 14.6875rem;
     height: 15.5rem;
     display: flex;
@@ -116,8 +135,13 @@
     /*left: 67.62rem;*/
     /*top: 13.44rem;*/
 }
-.box .text1{
-    color:#693CDE;
+
+.box .courseText {
+    list-style: none;
+}
+
+.box .text1 {
+    color: #693CDE;
     font-family: "Poppins-bold";
     font-size: 1.125rem;
     font-style: normal;
@@ -126,31 +150,34 @@
     letter-spacing: 0.045rem;
 }
 
-.box .address{
+.box .address {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     /*justify-content:space-between;*/
     gap: 0.62rem;
 }
-.box .phone{
+
+.box .phone {
     display: flex;
     flex-wrap: wrap;
-    justify-content:flex-start ;
+    justify-content: flex-start;
     align-items: center;
     gap: 0.62rem;
 }
-.box .post{
+
+.box .post {
     width: 10.625rem;
     height: 4.69713rem;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*margin: auto;*/
     /*left: 83.69rem;*/
     /*top: 14.44rem;*/
     /*position: absolute;*/
 }
-.box .insta{
+
+.box .insta {
     width: 10.625rem;
     height: 1.63463rem;
     display: flex;
@@ -158,15 +185,16 @@
     align-content: flex-end;
     justify-content: space-between;
 }
-.box .lower{
+
+.box .lower {
     display: flex;
     flex-direction: row;
     margin: auto;
     justify-content: center;
-    gap:35rem;
+    gap: 35rem;
 }
 
-.box .textbox{
+.box .textbox {
     /*left: 79.88rem;*/
     /*position: absolut/e;*/
     display: flex;
@@ -176,8 +204,9 @@
     gap: 1.5rem;
     /*margin: auto;*/
 }
-.box .text5{
-    color:#1F1733;
+
+.box .text5 {
+    color: #1F1733;
     text-align: right;
     font-family: "Poppins-bold";
     font-size: 0.9375rem;

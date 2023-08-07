@@ -7,10 +7,10 @@ const Transform = () => {
         <div className={classes.box}>
             <div className={classes.Transform}>
                 <div className={classes.overlap}>
-                    <div className={classes.img}>
-                        <div className={classes.rectangle}></div>
-                        <img className={classes.im} src={img} alt=" "/>
-                    </div>
+                    {/*<div className={classes.img}>*/}
+                        {/*<div className={classes.rectangle}></div>*/}
+                        {/*<img className={classes.im} src={img} alt=" "/>*/}
+                    {/*</div>*/}
                     <div className={classes.textBox}>
                         <p className={classes.text}>Transform Your Company by Boosting Skills and Building Teams</p>
                         <p className={classes.text2}>General Assembly's commitment to cultivating in-demand skills and

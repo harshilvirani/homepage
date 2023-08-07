@@ -6,7 +6,7 @@
 }
 .box .slider{
     height: 45.125rem;
-    position: relative;
+    /*position: relative;*/
     /*width: 120rem;*/
 }
 .box .overlap{
@@ -78,9 +78,9 @@
     box-shadow:  0px 12px 35px 0px rgba(53, 49, 122, 0.12);
     width: 16.1875rem;
     height: 4.875rem;
-    left: 20.38rem;
-    top: 1.5rem;
-    position: absolute;
+    /*left: 20.38rem;*/
+    /*top: 1.5rem;*/
+    /*position: absolute;*/
 }
 .box .icon{
     background-color: #ccfae7;
