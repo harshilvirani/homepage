@@ -1,48 +1,41 @@
 .box{
     background-color: transparent;
-    display:flex;
-    flex-direction: column;
+    display:grid;
+    /*flex-direction: column;*/
     width: 100%;
     justify-content: center;
 }
 .box .Transform{
     background-color: #FFFFFF;
     height:36.07rem;
-    display: flex;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin: auto;
+    position: relative;
     gap: 4.75rem;
 }
-/*.box .img{*/
-/*    width: 40.3125rem;*/
-/*    height: 26.9375rem;*/
-/*    display: flex;*/
-/*    margin: auto;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
+.box .first{
+    display: grid;
+    justify-items: flex-end;
+}
 .box .im{
     border-radius: 2.5rem;
     background: #C4C4C4;
     width: 37.1875rem;
     height: 23.8125rem;
-    display: flex;
-    justify-content: center;
 }
 .box .rectangle{
     border-radius: 3.125rem 0rem;
     background: #E1DEFF;
     width: 37.1875rem;
     height: 23.8125rem;
-    display: flex;
-
-
+    position: absolute;
 }
 .box .textBox{
-    display: flex;
-    flex-direction: column;
+    display:grid;
+    /*flex-direction: column;*/
     align-content: center;
+    justify-content: center;
     margin: auto;
 }
 .box .text{

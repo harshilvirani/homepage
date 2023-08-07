@@ -1,9 +1,17 @@
 .box {
     background-color: transparent;
+    /*display: grid;*/
     justify-content: center;
     width: 100%;
 }
-.box .container{
+
+.box .short {
+    display: grid;
+    justify-content: center;
+    transform: translateY(50%);
+}
+
+.box .container {
     height: 12.25rem;
     width: 79.35rem;
     background-color: #693CDE;
@@ -13,9 +21,10 @@
     align-items: center;
     justify-items: center;
 }
-.box .text{
-    color:#FFF;
-    font-family: "Poppins-bold",Helvetica;
+
+.box .text {
+    color: #FFF;
+    font-family: "Poppins-bold", Helvetica;
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 600;
@@ -24,25 +33,108 @@
     align-self: center;
     padding-left: 3rem;
 }
-/*.box .button{*/
-/*    padding-left: 11.5rem;*/
-/*}*/
-.box .btn{
+
+.box .btn {
     width: 16.875rem;
     height: 4.1875rem;
     border-radius: 0.5rem;
-    background:#0DCC7C;
+    background: #0DCC7C;
     border: none;
     color: #FFF;
     text-align: center;
-    font-family: "Poppins-bold",Helvetica;
+    font-family: "Poppins-bold", Helvetica;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.045rem;
 }
-.box .footer{
-    height: 37.75rem;
+
+.box .footer {
+    /*height:37.75rem;*/
+    padding: 15rem 0 9rem 0;
     background-color: #F8F8FF;
+}
+
+.box .footer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    padding-left: 8rem;
+}
+
+.box .logo {
+    display: grid;
+    justify-content: center;
+}
+
+.box .text1 {
+    color: #696477;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+}
+
+.box .contact {
+    display: grid;
+    justify-content: center;
+}
+
+.box .text2 {
+    color: #693CDE;
+    font-family: "Poppins-bold";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+}
+
+.box .us {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box .course{
+    display: grid;
+    justify-content: center;
+    list-style: none;
+    gap:0.94rem;
+    margin: auto;
+}
+.box .connect{
+    display:grid;
+    justify-content: center;
+    padding-right: 3rem;
+
+}
+.box .icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box .law{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-items: center;
+}
+.box .table{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box .text3{
+    color:#1F1733;
+    font-family: "Poppins-bold";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0375rem;
+    display: grid;
+    justify-content: center;
 }

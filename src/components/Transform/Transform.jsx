@@ -6,21 +6,22 @@ const Transform = () => {
     return (
         <div className={classes.box}>
             <div className={classes.Transform}>
-                {/*<div className={classes.overlap}>*/}
-                {/*    <div className={classes.rectangle}>*/}
+                <div className={classes.first}>
+                    {/*<div className={classes.rectangle}/>*/}
                         <img className={classes.im} src={img} alt=" "/>
-                    {/*</div>*/}
+                </div>
                 <div className={classes.textBox}>
                     <p className={classes.text}>Transform Your Company by Boosting Skills and Building Teams</p>
-                    <p className={classes.text2}>General Assembly's commitment to cultivating in-demand skills and
-                        leading-edge talent extends to your workforce.
+                    <p className={classes.text2}>General Assembly's commitment to cultivating in-demand skills
+                        <br/>
+                        and leading-edge talent extends to your workforce.
                         <br/>
                         <br/>
-                        We Transform companies of all sizes by providing, assessing, and training talent in today's
-                        top tech, design, and business strategies.</p>
+                        We Transform companies of all sizes by providing,
+                        assessing, <br/>and training talent in today's
+                        top tech, design, and business <br/>strategies.</p>
                     <button className={classes.btn}>Learn More</button>
                 </div>
-                {/*</div>*/}
             </div>
         </div>
     )

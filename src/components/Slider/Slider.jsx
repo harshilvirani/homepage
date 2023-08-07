@@ -6,24 +6,18 @@ import icon2 from '../../assests/student-icon.svg'
 const Slider = () => {
     return (
         <div className={classes.box}>
-            {/*<div className={classes.slider}>*/}
-                <div className={classes.overlap}>
-                    <div className={classes.text}>
-                        <span className={classes.textWrapper}>Learn skills and technologies</span>
-                        <span className={classes.span}>
-                                   {" "}
-                            which are high in demand, with our practical online and offline courses conducted{" "}
-                            <span className={classes.textWrapper}>by industry experts</span>
-                        </span>
-
-                        {/*<span className={classes.span}>{" "}</span>*/}
-                        {/*<span className={classes.textWrapper}></span>*/}
-                        <button className={classes.bookClass}>Book a Free Consultation Now</button>
+            <div className={classes.overlap}>
+                <div className={classes.container}>
+                    <div className={classes.textBox}>
+                        <div className={classes.text}>
+                            <span className={classes.textWrapper}>Learn skills and technologies </span>
+                            <br/>which are high in demand, with our practical online and offline courses conducted
+                            <span className={classes.textWrapper}> by industry experts</span>
+                        </div>
+                        <div>
+                            <button className={classes.bookClass}>Book a Free Consultation Now</button>
+                        </div>
                     </div>
-                    {/*<div className={classes.bookClass}>*/}
-                    {/*        <p className={classes.p}>Book a Free Consultation Now</p>*/}
-                    {/*</div>*/}
-                    {/*<div className={classes.div}>*/}
                     <div className={classes.img}>
                         <div className={classes.activeStudents}>
                             <img className={classes.icon} src={icon1} alt="icon1"/>
@@ -37,7 +31,7 @@ const Slider = () => {
                         </div>
                     </div>
                 </div>
-            {/*</div>*/}
+            </div>
         </div>
     )
 }
