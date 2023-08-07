@@ -1,41 +1,49 @@
 .box{
     background-color: transparent;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display:flex;
+    flex-direction: column;
     width: 100%;
+    justify-content: center;
 }
 .box .Transform{
     background-color: #FFFFFF;
     height:36.07rem;
-}
-.box .overlap{
-    height: 26.9375rem;
-}
-.box .img{
-    width: 40.3125rem;
-    height: 26.9375rem;
     display: flex;
     flex-direction: row;
-    margin: auto;
-    justify-content: center;
     align-items: center;
+    margin: auto;
+    gap: 4.75rem;
 }
+/*.box .img{*/
+/*    width: 40.3125rem;*/
+/*    height: 26.9375rem;*/
+/*    display: flex;*/
+/*    margin: auto;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 .box .im{
     border-radius: 2.5rem;
     background: #C4C4C4;
     width: 37.1875rem;
     height: 23.8125rem;
+    display: flex;
+    justify-content: center;
 }
 .box .rectangle{
     border-radius: 3.125rem 0rem;
     background: #E1DEFF;
     width: 37.1875rem;
     height: 23.8125rem;
+    display: flex;
+
+
 }
 .box .textBox{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
 }
 .box .text{
     width: 34.375rem;
@@ -46,6 +54,7 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.07rem;
+
 }
 .box .text2{
     color:#696477;
@@ -56,14 +65,14 @@
     line-height: normal;
     letter-spacing: 0.04rem;
 }
-.box .btn{
+.box .btn {
     border-radius: 0.5rem;
-    background:#693CDE;
+    background: #693CDE;
     width: 12.5rem;
     height: 3.625rem;
     color: #FFF;
     text-align: center;
-    font-family: "Poppins-semiBold",Helvetica;
+    font-family: "Poppins-semiBold", Helvetica;
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;
