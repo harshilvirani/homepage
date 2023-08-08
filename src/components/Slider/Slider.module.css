@@ -22,6 +22,9 @@
     gap: 2.38rem;
     /*margin: auto;*/
 }
+.box .part2{
+    padding-left: 3rem;
+}
 
 .box.textBox {
     display: grid;
