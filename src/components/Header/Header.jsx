@@ -7,36 +7,30 @@ import icon from '../../assests/icon.svg'
 const Header = () => {
     return (
         <div className={classes.box}>
-            <div className={classes.wrapper}>
-                <header className={classes.header}>
-                    <img  className={classes.logo} src={Logo} alt="logo"/>
-                    <div className={classes.navbar}>
-                        <div className={classes.home}>HOME</div>
-                        <div className={classes.aboutUs}>ABOUT US</div>
-                        <div className={classes.courses}>
-                            <div className={classes.text}>COURSES</div>
-                            <img className={classes.vector} src={Vector1} alt="vector"/>
-                        </div>
-                        <div className={classes.events}>
-                            <div className={classes.text}>EVENTS</div>
-                            <img className={classes.vector} src={Vector1} alt="vector"/>
-                        </div>
-                        <div className={classes.contactUs}>CONTACT US</div>
-                        <div className={classes.blog}>BLOG</div>
-                    </div>
-                    <div className={classes.phoneNumber}>
-                        <div className={classes.icon}>
-                            <img src={icon} alt="icon"/>
-                        </div>
-                        <div className={classes.text2}>+91 99796 19162</div>
-                    </div>
-                    <div className={classes.bookFreeClass}>
-                        <div className={classes.group}>
-                            <div className={classes.div}>Book Free Class</div>
-                        </div>
-                    </div>
-                </header>
-            </div>
+          <div className={classes.header}>
+              <img src={Logo}/>
+              <ul className={classes.navbar}>
+                  <li className={classes.home}>HOME</li>
+                  <li className={classes.text}>ABOUT US</li>
+                  <div className={classes.drop}>
+                      <li className={classes.text}>COURSES</li>
+                      <img src={Vector1}/>
+                  </div>
+                  <div className={classes.drop}>
+                      <li className={classes.text}>EVENTS</li>
+                      <img src={Vector1}/>
+                  </div>
+                  <li className={classes.text}>CONTACT US</li>
+                  <li className={classes.text}>BLOG</li>
+              </ul>
+              <div className={classes.phone}>
+                  <img src={icon}/>
+                  <p className={classes.text}>+91 99796 19162</p>
+              </div>
+              <div>
+                  <button className={classes.btn}>Book Free Class</button>
+              </div>
+          </div>
         </div>
     )
 }

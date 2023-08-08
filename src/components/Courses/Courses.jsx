@@ -38,7 +38,7 @@ const Courses = () => {
                 <div className={classes.rectangle}>
                     {
                         Data.map((item,i)=>(
-                            <div className={classes.guid}>
+                            <div  key={i} className={classes.guid}>
                                 <img className={classes.diImg} src={item.img} alt=" "/>
                                 <div className={classes.text6}>{item.text6}</div>
                                 <div className={classes.text7}>{item.text7}</div>
