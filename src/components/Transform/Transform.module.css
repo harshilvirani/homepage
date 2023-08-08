@@ -7,16 +7,19 @@
 }
 .box .Transform{
     background-color: #FFFFFF;
-    height:36.07rem;
+    /*height:36.07rem;*/
     display:grid;
+    padding: 5rem 20rem 5rem 20rem;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    position: relative;
+    /*position: relative;*/
     gap: 4.75rem;
 }
 .box .first{
-    display: grid;
+    display: flex;
+    flex-direction: row;
     justify-items: flex-end;
+    position: relative;
 }
 .box .im{
     border-radius: 2.5rem;
@@ -30,6 +33,8 @@
     width: 37.1875rem;
     height: 23.8125rem;
     position: absolute;
+    left: 3.121rem;
+    top: 3.12rem;
 }
 .box .textBox{
     display:grid;
