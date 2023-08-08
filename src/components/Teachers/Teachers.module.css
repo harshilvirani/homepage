@@ -7,19 +7,14 @@
 }
 .box .teachers{
     background-color: #F6F5FF;
-    /*width: 120rem;*/
-    height: 53.75rem;
-    /*position: relative;*/
+    padding: 6rem 0;
 }
 .box .title{
-    /*width: 18.75rem;*/
-    height: 5.625rem;
-    /*position:absolute;*/
-    /*left: 40.56rem;*/
-    /*top: 5rem;*/
+    margin: auto;
 }
 .box .rectangle{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     margin: 4rem;
@@ -52,18 +47,10 @@
     background:#FFFFFF;
     width: 25.625rem;
     height: 31.4375rem;
-    /*left: 10.25rem;*/
-    /*top: 15.81rem;*/
-    /*position: absolute;*/
 }
 .box .img{
     border-radius: 0.3125rem 0.3125rem 0rem 0rem;
     background: #E4DCF9;
-    /*width: 24.875rem;*/
-    /*height: 24.9375rem;*/
-    /*left: 0.37rem;*/
-    /*top: 0.38rem;*/
-    /*position: absolute;*/
     display: flex;
     margin: auto;
 }
@@ -76,9 +63,6 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.045rem;
-    /*left: 8.19rem;*/
-    /*top: 25.81rem;*/
-    /*position: absolute;*/
 }
 .box .text3{
     color: #696477;
@@ -89,17 +73,11 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.035rem;
-    /*left: 10.31rem;*/
-    /*top: 27.63rem;*/
-    /*position: absolute;*/
 }
 
 .box .icon{
     width: 4.75rem;
     height: 0.4375rem;
-    /*position: absolute;*/
-    /*left: 47rem;*/
-    /*top: 49.88rem;*/
     display: flex;
     justify-content: center;
     margin: auto;

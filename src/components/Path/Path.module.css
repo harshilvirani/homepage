@@ -10,11 +10,7 @@
     padding: 6rem 0;
 }
 .box .textarea{
-    /*width: 11.4375rem;*/
-    height: 5.625rem;
-    /*position: absolute;*/
-    /*left: 44.31rem;*/
-    /*top: 3.75rem;*/
+    /*height: 5.625rem;*/
 }
 .box .title{
     color:#1F1733;
@@ -44,25 +40,19 @@
     gap: 1.25rem;
     margin: auto;
     justify-content: center;
-    padding-top:4.19rem;
 }
 .box .rectangle1{
-    /*left: 10.31rem;*/
     border-radius: 0.5rem;
     border: 1px solid #E4DCF9;
     background:#FFFFFF;
     box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
     top: 16.56rem;
-    /*position: absolute;*/
     width: 25.625rem;
     height: 36.3125rem;
 }
 .box .img1{
      width: 20.0625rem;
      height: 17.75rem;
-     /*left: 2.81rem;*/
-     /*top: 2.44rem;*/
-     /*position: absolute;*/
     display: flex;
     margin: 2.44rem 2.81rem;
  }
@@ -75,9 +65,6 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.045rem;
-    /*left: 9.87rem;*/
-    /*top: 23.19rem;*/
-    /*position: absolute;*/
 
 }
 .box .text2{
@@ -90,9 +77,6 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.035rem;
-    /*left: 1.62rem;*/
-    /*top: 26.12rem;*/
-    /*position: absolute;*/
     display: flex;
     flex-direction: column;
     margin: 2rem;
@@ -111,9 +95,6 @@
     line-height: normal;
     letter-spacing: 0.035rem;
     border: none;
-    /*left: 4.5rem;*/
-    /*top: 31.31rem;*/
-    /*position: absolute;*/
 }
 
 .box .btn2{
