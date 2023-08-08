@@ -8,16 +8,28 @@ const Slider = () => {
         <div className={classes.box}>
             <div className={classes.overlap}>
                 <div className={classes.container}>
-                    <div className={classes.textBox}>
+                    <div className={classes.part1}>
                         <div className={classes.text}>
                             <span className={classes.textWrapper}>Learn skills and technologies </span>
-                            <br/>which are high in demand, with our practical online and offline courses conducted
-                            <span className={classes.textWrapper}> by industry experts</span>
+                                        which are high in demand, with our practical online and offline courses conducted
+                                        <span className={classes.textWrapper}> by industry experts</span>
                         </div>
-                        <div>
-                            <button className={classes.bookClass}>Book a Free Consultation Now</button>
-                        </div>
+                        <button className={classes.bookClass}>Book a Free Consultation Now</button>
                     </div>
+
+
+                    {/*<div className={classes.textBox}>*/}
+                    {/*    <div>*/}
+                    {/*        <div className={classes.text}>*/}
+                    {/*            <span className={classes.textWrapper}>Learn skills and technologies </span>*/}
+                    {/*            which are high in demand, with our practical online and offline courses conducted*/}
+                    {/*            <span className={classes.textWrapper}> by industry experts</span>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    /!*<div>*!/*/}
+                    {/*        <button className={classes.bookClass}>Book a Free Consultation Now</button>*/}
+                    {/*    /!*</div>*!/*/}
+                    {/*</div>*/}
                     <div className={classes.img}>
                         <div className={classes.activeStudents}>
                             <img className={classes.icon} src={icon1} alt="icon1"/>

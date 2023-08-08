@@ -5,7 +5,8 @@ import img2 from '../../assests/piotr-cichosz-NhRk-907Ayc-unsplash 1 (1).png'
 import img3 from '../../assests/jared-brashier-duNHkmSkW6M-unsplash 1.png'
 import img4 from '../../assests/piotr-cichosz-NhRk-907Ayc-unsplash 1 (2).png'
 import icon1 from '../../assests/Stroke 3.svg'
-import icon2 from '../../assests/calender.svg'
+import icon2 from '../../assests/calender.svg';
+// import { AiOutlineRight } from 'react-icons/ai';
 
 const Events = () => {
     const Data = [
@@ -52,26 +53,29 @@ const Events = () => {
                 </div>
                 <div className={classes.rectangle}>
                     {
-                        Data.map((item, i) => (
+                        Data?.map((item, i) => (
                             <div key={i} className={classes.rectangle1}>
-                                    <img className={classes.img} src={item.img} alt=""/>
-                                    <div className={classes.textBox}>
-                                        <p className={classes.text2}>{item.text2}</p>
-                                        <div className={classes.cal}>
-                                            <img className={classes.icon2} src={item.icon2} alt=""/>
-                                            <p className={classes.date}>{item.date}</p>
-                                        </div>
+                                <img className={classes.img} src={item.img} alt="" />
+                                <div className={classes.textBox}>
+                                    <p className={classes.text2}>{item.text2}</p>
+                                    <div className={classes.cal}>
+                                        <img className={classes.icon2} src={item.icon2} alt="" />
+                                        <p className={classes.date}>{item.date}</p>
                                     </div>
-                                    <img className={classes.icon1} src={item.icon1} alt=""/>
+                                </div>
+                                <div className={classes.parent_img}>
+                                    <img className={classes.icon1} src={item.icon1} alt="" />
+                                </div>
                             </div>
-
                         ))
                     }
                 </div>
-                <button className={classes.btn2}>View All Events</button>
-            </div>
+
+                <button className={classes.btn2} > View All Events</button >
+            </div >
+
             {/*</div>*/}
-        </div>
+        </div >
     )
 }
 export default Events;
