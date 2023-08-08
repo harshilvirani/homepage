@@ -31,7 +31,6 @@ const Features = () => {
     ]
     return(
         <div className={classes.box}>
-            {/*<div className={classes.features}>*/}
                 <div className={classes.overlap}>
                     <div className={classes.rectangle}>
                         {
@@ -45,7 +44,6 @@ const Features = () => {
                         }
                     </div>
                 </div>
-            {/*</div>*/}
         </div>
     )
 }

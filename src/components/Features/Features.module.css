@@ -5,16 +5,10 @@
     justify-content: center;
     width: 100%;
 }
-.box .features{
-    position: relative;
-    /*width: 120rem;*/
-    height: 37.125rem;
-}
 .box .overlap{
     background-image:url("../../assests/speaker-business-meeting-conference-hall-business-entrepreneurship-concept 1.png");
     background-size: 100% 100%;
-    /*width: 120rem;*/
-    height: 37.125rem;
+    padding: 10rem 0;
 }
 .box .rectangle{
     display: flex;
@@ -22,7 +16,6 @@
     flex-wrap: wrap;
     gap: 1.25rem;
     justify-content: center;
-    margin-top: 9.13rem;
 }
 .box .rectangle1{
     border-radius: 1.25rem;
@@ -30,9 +23,6 @@
     box-shadow: 0px 12px 35px 0px rgba(53, 49, 122, 0.12);
     width: 18.9375rem;
     height: 18.875rem;
-    /*position: absolute;*/
-    /*left: 20.31rem;*/
-    /*top: 9.12rem;*/
 }
 .box .icon1{
     width: 6rem;
@@ -41,9 +31,6 @@
     padding-top: 2.38rem;
     margin: auto;
     display: flex;
-    /*left: 6.5rem;*/
-    /*top: 2.37rem;*/
-    /*position: absolute;*/
 }
 .box .text1{
     color: #1F1733;
@@ -54,9 +41,6 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03rem;
-    /*position: absolute;*/
-    /*left: 3.5rem;*/
-    /*top: 9.94rem;*/
 }
 .box .text2{
     color:#696477;
@@ -67,7 +51,4 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.035rem;
-    /*position: absolute;*/
-    /*left: 0.62rem;*/
-    /*top: 11.94rem;*/
 }

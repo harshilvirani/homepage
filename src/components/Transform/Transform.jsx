@@ -8,7 +8,7 @@ const Transform = () => {
             <div className={classes.Transform}>
                 <div className={classes.first}>
                     <div>
-                        <div className={classes.rectangle}/>
+                        {/*<div className={classes.rectangle}/>*/}
                     </div>
                     <img className={classes.im} src={img} alt=" "/>
                 </div>

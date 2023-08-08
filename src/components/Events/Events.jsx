@@ -46,7 +46,6 @@ const Events = () => {
     return (
         <div className={classes.box}>
             <div className={classes.events}>
-                {/*<div className={classes.overlap}>*/}
                 <div className={classes.title}>
                     <p className={classes.text}>Upcoming Events in</p>
                     <p className={classes.text1}>Online</p>
@@ -73,8 +72,6 @@ const Events = () => {
 
                 <button className={classes.btn2} > View All Events</button >
             </div >
-
-            {/*</div>*/}
         </div >
     )
 }

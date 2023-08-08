@@ -8,12 +8,11 @@
 
 .box .header{
     background-color: #FFFFFF;
-    height: 6.25rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 0 6rem 0 6rem;
+    padding: 1rem 6rem 0;
 }
 .box .navbar{
     display: flex;

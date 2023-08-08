@@ -7,20 +7,18 @@
 .box .overlap {
     background-image: url("../../assests/mask-group.png");
     background-size: 100% 100%;
-    height: 40.125rem;
-    padding-top: 5.5rem;
 }
 
 .box .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 5rem 0;
 }
 .box .part1{
     display: grid;
     align-self: center;
     justify-self: flex-end;
     gap: 2.38rem;
-    /*margin: auto;*/
 }
 .box .part2{
     padding-left: 3rem;
@@ -37,11 +35,8 @@
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 400;
-    /*left: 15.38rem;*/
     line-height: normal;
     letter-spacing: 0.05625rem;
-    /*position: absolute;*/
-    /*top: 10rem;*/
     width: 35rem;
 }
 
@@ -63,9 +58,6 @@
     border-radius: 0.5rem;
     height: 3.875rem;
     width: 20rem;
-    /*left: 15.38rem;*/
-    /*top:23.62rem;*/
-    /*position: absolute;*/
     color: #FFFFFF;
     text-align: center;
     font-family: Poppins;
@@ -87,7 +79,6 @@
     position: relative;
     width: 32rem;
     height: 33.5625rem;
-    /*top: 0;*/
 }
 
 .box .activeStudents {

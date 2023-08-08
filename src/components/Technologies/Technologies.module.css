@@ -7,15 +7,9 @@
 }
 .box .technologies{
     background-color: #FFFFFF;
-    /*width: 120rem;*/
-    height: 34.375rem;
-    /*position: relative;*/
+    padding: 6rem 0;
 }
 .box .title{
-    /*width: 50.5rem;*/
-    /*left: 24.75rem;*/
-    /*top: 5.62rem;*/
-    /*position: absolute;*/
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -31,7 +25,6 @@
     letter-spacing: 0.0675rem;
     display: flex;
     margin: auto;
-    padding-top: 5.63rem;
 }
 .box .ptext{
     color: #1F1733;
@@ -44,11 +37,6 @@
     letter-spacing: 0.0675rem;
 }
 .box .img{
-    width: 79.375rem;
-    height: 12.375rem;
-    /*position: absolute;*/
-    /*left: 10.31rem;*/
-    /*top: 19.94rem;*/
     align-items: center;
     display: flex;
     gap: 4.75rem;

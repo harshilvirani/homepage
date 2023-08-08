@@ -6,7 +6,7 @@
     width: 100%;
 }
 .box .journey{
-    height: 81.25rem;
+    padding: 6rem 0;
 }
 .box .titleBox{
     display: flex;
@@ -14,12 +14,6 @@
     flex-wrap: wrap;
     flex-direction:column;
     align-content: center;
-    padding-top: 5rem;
-}
-.box .journey {
-    /*position: relative;*/
-    /*width: 120rem;*/
-    height: 81.25rem;
 }
 
 .box .rectangle {
@@ -42,14 +36,10 @@
     line-height: normal;
     letter-spacing: 0.0725rem;
     text-transform: uppercase;
-    /*left: 30.94rem;*/
-    /*top: 5rem;*/
-    /*position: absolute;*/
 }
 
 .box .h1 {
     color: #696477;
-    width: 43.125rem;
     text-align: center;
     font-family: "Poppins-light", Helvetica;
     font-size: 1rem;
@@ -58,9 +48,6 @@
     line-height: normal;
     letter-spacing: 0.04rem;
     margin: auto;
-    /*left: 27.44rem;*/
-    /*position: absolute;*/
-    /*top: 9.25rem;*/
 }
 
 .box .rectangle1 {
@@ -70,13 +57,9 @@
     box-shadow: 0px 17px 35px 1px rgba(52, 49, 100, 0.06);
     width: 23.625rem;
     height: 25.6875rem;
-    /*position: absolute;*/
-    /*left: 10.31rem;*/
-    /*top: 16.25rem;*/
 }
 
 .box .text {
-    width: 22.625rem;
     color: #1F1733;
     text-align: center;
     font-family: "Poppins-bold";
@@ -85,17 +68,11 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.05rem;
-    /*position: absolute;*/
-    /*left: 0.5rem;*/
-    /*top: 2.25rem;*/
 }
 
 .box .icon {
     width: 8.2125rem;
     height: 6.9125rem;
-    /*position: absolute;*/
-    /*left: 7.69rem;*/
-    /*top: 7.67rem;*/
     display: flex;
     margin: auto;
 }
@@ -109,9 +86,6 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.04rem;
-    /*left: 3.19rem;*/
-    /*top: 16.12rem;*/
-    /*position: absolute;*/
     display: flex;
     margin-top: 4rem;
     justify-content: center;
@@ -126,11 +100,6 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.035rem;
-    width: 19.875rem;
-    height: 5.8125rem;
-    /*left: 1.87rem;*/
-    /*top: 18.25rem;*/
-    /*position: absolute;*/
     display: flex;
     margin: auto;
 }
@@ -148,9 +117,6 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.04rem;
-    /*left: 40.88rem;*/
-    /*top: 73.25rem;*/
-    /*position: absolute;*/
     border: none;
     margin: auto;
     display: flex;

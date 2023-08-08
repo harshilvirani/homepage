@@ -7,9 +7,7 @@
 }
 .box .path{
     background: #FFFFFF;
-    /*width: 120rem;*/
-    height: 55rem;
-    /*position: relative;*/
+    padding: 6rem 0;
 }
 .box .textarea{
     /*width: 11.4375rem;*/
